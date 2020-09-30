@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов» [![Build status][travis-image]][travis-url]
 
 * Студент: [Михаил Глухов](https://up.htmlacademy.ru/react/5/user/1110305).
-* Наставник: `Неизвестно`.
+* Наставник: [Виталий Кудла] (https://htmlacademy.ru/profile/vkudla).
 
 ---
 
