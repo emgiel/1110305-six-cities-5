@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Main = (props) => {
+const MainScreen = (props) => {
 
   const {placesCount} = props;
 
@@ -13,7 +13,7 @@ const Main = (props) => {
           <div className="header__wrapper">
             <div className="header__left">
               <a className="header__logo-link header__logo-link--active">
-                <img className="header__logo" src="img/logo.svg" alt="6 cities logo" width="81" height="41"></img>
+                <img className="header__logo" src="img/logo.svg" alt="6 cities logo" width="81" height="41"/>
               </a>
             </div>
             <nav className="header__nav">
@@ -96,7 +96,7 @@ const Main = (props) => {
                   </div>
                   <div className="cities__image-wrapper place-card__image-wrapper">
                     <a href="#">
-                      <img className="place-card__image" src="img/apartment-01.jpg" width="260" height="200" alt="Place image"></img>
+                      <img className="place-card__image" src="img/apartment-01.jpg" width="260" height="200" alt="Place image"/>
                     </a>
                   </div>
                   <div className="place-card__info">
@@ -128,7 +128,7 @@ const Main = (props) => {
                 <article className="cities__place-card place-card">
                   <div className="cities__image-wrapper place-card__image-wrapper">
                     <a href="#">
-                      <img className="place-card__image" src="img/room.jpg" width="260" height="200" alt="Place image"></img>
+                      <img className="place-card__image" src="img/room.jpg" width="260" height="200" alt="Place image"/>
                     </a>
                   </div>
                   <div className="place-card__info">
@@ -160,7 +160,7 @@ const Main = (props) => {
                 <article className="cities__place-card place-card">
                   <div className="cities__image-wrapper place-card__image-wrapper">
                     <a href="#">
-                      <img className="place-card__image" src="img/apartment-02.jpg" width="260" height="200" alt="Place image"></img>
+                      <img className="place-card__image" src="img/apartment-02.jpg" width="260" height="200" alt="Place image"/>
                     </a>
                   </div>
                   <div className="place-card__info">
@@ -195,7 +195,7 @@ const Main = (props) => {
                   </div>
                   <div className="cities__image-wrapper place-card__image-wrapper">
                     <a href="#">
-                      <img className="place-card__image" src="img/apartment-03.jpg" width="260" height="200" alt="Place image"></img>
+                      <img className="place-card__image" src="img/apartment-03.jpg" width="260" height="200" alt="Place image"/>
                     </a>
                   </div>
                   <div className="place-card__info">
@@ -227,7 +227,7 @@ const Main = (props) => {
                 <article className="cities__place-card place-card">
                   <div className="cities__image-wrapper place-card__image-wrapper">
                     <a href="#">
-                      <img className="place-card__image" src="img/room.jpg" width="260" height="200" alt="Place image"></img>
+                      <img className="place-card__image" src="img/room.jpg" width="260" height="200" alt="Place image"/>
                     </a>
                   </div>
                   <div className="place-card__info">
@@ -267,8 +267,8 @@ const Main = (props) => {
   );
 };
 
-Main.propTypes = {
+MainScreen.propTypes = {
   placesCount: PropTypes.number
 };
 
-export default Main;
+export default MainScreen;
